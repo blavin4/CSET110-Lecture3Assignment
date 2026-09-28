@@ -1,0 +1,95 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .welcome {
+    height: 100 px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 100px;
+    padding-bottom: 100px;
+ }
+ .web{
+    text-align:center;
+ }
+ .beginning {
+    text-align: center;
+    padding:10px;
+ }
+ footer{
+    
+    background-color: black;
+    display:  flex;
+    clear: both;
+    color: white;
+    padding: 50px;
+    justify-content: space-around;
+    gap: 100px;
+ }
+.read {
+    text-align: center;
+    justify-self: center;
+    border: solid rgb(165, 164, 164) 2px;
+    width: 150px;
+    padding: 15px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+ .development{
+    background-color: rgb(243, 242, 242);
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+ }
+ .development p{
+    text-align: jcenter ;
+    display: inline-block;
+    width: 400px;
+    padding: 50px;
+    font-family: Arial;
+ }
+ .devinfo{
+    background-color: rgb(34, 34, 34);
+    overflow: hidden;
+    font-family: Arial;
+    a{
+        text-decoration: none;
+    }
+ }
+.column{
+    float: left;
+    width: 25%;
+    margin: 20px 4%;
+    padding: 50px;
+    height:320px;
+    background-color: white;
+    text-align:center;
+    p{
+        padding-top: 50px;
+    }
+ }
+ .column2{
+    color: white;
+    float: left;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    padding: 75px;
+    p{
+        padding-top: 20px;
+    }
+ }
+ .handling{
+    justify-self: center;
+    text-align: center;
+    padding: 50px;
+    max-width: 700px;
+    font-family: Arial;
+    p{
+        padding-top:  50px;
+    }
+ }
